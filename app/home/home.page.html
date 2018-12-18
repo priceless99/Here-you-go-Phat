@@ -1,0 +1,130 @@
+<ion-header>
+    <ion-toolbar>
+        <ion-buttons slot="start">
+            <ion-menu-button></ion-menu-button>
+        </ion-buttons>
+        <ion-title>
+            Home
+        </ion-title>
+    </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+    <div id="root">
+        <div class="container1">
+            <h1>Things to do</h1>
+        </div>
+        <ion-card>
+                    <div (click)="modalfunc()" class="container">
+           <p class="blue">Homework</p>   
+       
+        </div>
+    </ion-card>
+        <ion-card>
+        <div (click)="modalfunc1()" class="container">
+            <p class="blue">Tasks</p>
+        </div>
+    </ion-card>
+    <ion-card>
+        <div (click)="showHide2()" class="container">
+            <p class="blue">Activites</p>
+        </div>
+    </ion-card>
+        <ion-card>
+        <div class="container">
+            <p class="blue">Challenges</p>
+        </div>
+    </ion-card>
+        <div class="responsive">
+            <img src="https://image.flaticon.com/icons/svg/4/4430.svg" alt="">
+        </div>
+    </div>
+    <div style="display:none" id="toggleDiv">
+        <div class="container1 w3-card w3-container">
+            <h1>Homework</h1>
+        </div>
+        <div class="container2 w3-card w3-container">
+            <div>
+                <p class="box">TO-DO</p>
+            </div>
+            <div>
+                <p class="box">DOING</p>
+            </div>
+            <div>
+                <p class="box">DONE</p>
+            </div>
+        </div>
+        <div class="containerA w3-card w3-container">
+            <p>Calculus</p>
+        </div>
+        <div class="containerA w3-card w3-container">
+            <p>History</p>
+        </div>
+        <div class="containerA w3-card w3-container">
+            <p>Science</p>
+        </div>
+        <div id='getstuff' class="containerA w3-card w3-container">
+            <p>Geometry</p>
+        </div>
+        <div class="responsive2">
+            <button>ADD SHIT</button>
+        </div>
+    </div>
+    <div style="display:none" id="toggleDiv1">
+        <div class="container1 w3-card w3-container">
+            <h1>Tasks</h1>
+        </div>
+        <div class="container2 w3-card w3-container">
+            <div>
+                <p class="box">TO-DO</p>
+            </div>
+            <div>
+                <p class="box">DOING</p>
+            </div>
+            <div>
+                <p class="box">DONE</p>
+            </div>
+        </div>
+        <div class="containerA w3-card w3-container">
+            <p>Clean room</p>
+        </div>
+        <div class="containerA w3-card w3-container">
+            <p>Mow the lawn</p>
+        </div>
+        <div class="containerA w3-card w3-container">
+            <p>Shovel Snow</p>
+        </div>
+        <div class="containerA w3-card w3-container">
+            <p>Wash the dishes</p>
+        </div>
+    </div>
+    <div style="display:none" id="toggleDiv2">
+        <div class="container1 w3-card w3-container">
+            <h1>Activities</h1>
+        </div>
+        <div class="container2 w3-card w3-container">
+            <div>
+                <p class="box">TO-DO</p>
+            </div>
+            <div>
+                <p class="box">DOING</p>
+            </div>
+            <div>
+                <p class="box">DONE</p>
+            </div>
+        </div>
+        <div class="containerA w3-card w3-container">
+            <p>Basketball Practice</p>
+        </div>
+        <div class="containerA w3-card w3-container">
+            <p>Swimming lessons</p>
+        </div>
+        <div class="containerA w3-card w3-container">
+            <p>Boy/Girl Scouts</p>
+        </div>
+        <div class="containerA w3-card w3-container">
+            <p>Exercise/Outdoor activities</p>
+        </div>
+    </div>
+
+</ion-content>

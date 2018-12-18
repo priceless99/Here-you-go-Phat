@@ -1,0 +1,39 @@
+<ion-header>
+    <ion-toolbar>
+      <ion-title>modal</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  
+  <ion-content padding>
+    <div>
+      <div class="container1 w3-card w3-container">
+        <h1>Homework</h1>
+      </div>
+      <div class="container2">
+        <div class="col">
+          <p class="box">TO-DO</p>
+        </div>
+        <div>
+          <p style="color:blue"  class="box">DOING</p>
+        </div>
+        <div>
+          <p class="box">DONE</p>
+        </div>
+      </div>
+      <div id='add'>
+     
+  
+      </div>
+      <ion-button (click)="dismiss()">Back</ion-button>
+      <div>
+  
+      </div>
+      <div>
+        <ion-fab horizontal='end' vertical='bottom'>
+          <ion-fab-button (click)="classFunction()">
+            <ion-icon name='add'></ion-icon>
+          </ion-fab-button>
+        </ion-fab>
+      </div>
+    </div>
+  </ion-content>
